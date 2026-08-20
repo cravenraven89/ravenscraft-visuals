@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="96" y1="64" x2="416" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4D58D"/>
+      <stop offset="0.35" stop-color="#D4AF60"/>
+      <stop offset="0.7" stop-color="#8F6A2A"/>
+      <stop offset="1" stop-color="#F2D488"/>
+    </linearGradient>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(256 256) rotate(90) scale(256)">
+      <stop stop-color="#232323"/>
+      <stop offset="1" stop-color="#060606"/>
+    </radialGradient>
+  </defs>
+  <circle cx="256" cy="256" r="244" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="228" stroke="url(#gold)" stroke-width="10"/>
+  <circle cx="256" cy="256" r="206" stroke="url(#gold)" stroke-opacity="0.45" stroke-width="2"/>
+  <path d="M164 152H214C273.647 152 322 200.353 322 260V260C322 319.647 273.647 368 214 368H164V152ZM210 198H212C246.242 198 274 225.758 274 260C274 294.242 246.242 322 212 322H210V198Z" fill="url(#gold)"/>
+  <path d="M248 152H298L366 368H316L302 322H244L230 368H182L248 152ZM254 278H292L274 223L254 278Z" fill="url(#gold)"/>
+</svg>
