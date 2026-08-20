@@ -72,14 +72,14 @@ export function SiteFooter({ logoSrc }: SiteFooterProps) {
                 </a>
               </li>
               <li>
-                <a href="#/admin" className="font-semibold text-[#f0d48d] transition hover:text-[#d4af63]">
+                <a href="#/admin" rel="nofollow" className="font-semibold text-[#f0d48d] transition hover:text-[#d4af63]">
                   Admin / Uploads
                 </a>
               </li>
             </ul>
             <div className="mt-5 rounded-2xl border border-[#d4af63]/20 bg-black/20 p-4 text-sm text-slate-300">
               Need to add your real logo or photos?
-              <a href="#/admin" className="ml-1 font-semibold text-[#f0d48d] underline underline-offset-4">
+              <a href="#/admin" rel="nofollow" className="ml-1 font-semibold text-[#f0d48d] underline underline-offset-4">
                 Open Admin / Uploads
               </a>
             </div>
@@ -90,11 +90,15 @@ export function SiteFooter({ logoSrc }: SiteFooterProps) {
           <p>&copy; {new Date().getFullYear()} Ravenscraft Visuals. All rights reserved.</p>
           <p>
             A deposit is required to reserve any booking.{" "}
-            <a href="#/admin" className="transition hover:text-[#d4af63]">
+            <a href="#/admin" rel="nofollow" className="transition hover:text-[#d4af63]">
               Admin
             </a>
           </p>
         </div>
+
+        <p className="mt-6 text-center font-script text-2xl text-[#d4af63]/80">
+          In Loving Memory of Brennan Havican 09/26/87-12/26/25
+        </p>
       </div>
     </footer>
   );
